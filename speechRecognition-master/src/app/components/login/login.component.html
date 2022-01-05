@@ -1,0 +1,12 @@
+<div class="container text-center mt-5">
+  <div class="card text-white bg-dark mb-3">
+    <div class="card-header text-uppercase">Form Speech</div>
+    <div class="card-body">
+      <button [disabled]="!speech.error" class="btn btn-danger m-2" (click)="startService2()">User</button>
+      <button [disabled]="!speech.error" class="btn btn-danger m-1" (click)="startService2()">Password</button>
+      <div class="card bg-light mt-2">
+        <p class="text-uppercase text-danger mt-3">{{speech.user}}</p>
+      </div>
+    </div>
+  </div>
+</div>
